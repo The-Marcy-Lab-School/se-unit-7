@@ -6,7 +6,17 @@
 
 1. What is the difference between a URL and a URI?
 
-2. What is the purpose of query params? How do we use them in our applications?
+**Suggested Answer**
+
+A "URI" is a Uniform Resource Identifier, and refers to any means of identification for a resource. For example, a bar-code for a product in a grocery store could be considered a URI.
+
+A "URL" is a Uniform Resource Locater, which refers to how you might find the resource as well as identify it.  In the web development world, this generally refers to something containing the protocol (i.e. `http://`), and the location (i.e. `google.com`)
+
+2. What is the purpose of query params? How do we use them in our applications? Try to use a real-world example if you can!
+
+**Suggested Answer**
+
+Sometimes, we may want to collect additional, optional information from the user. For example, visiting https://twitter.com/search displays a search bar, as well as some default tweets. However, visiting https://twitter.com/search?q=dogs displays all results related to the search for "dogs".
 
 ## Code
 

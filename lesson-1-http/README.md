@@ -20,7 +20,7 @@
 * [Tutorial - Create a Simple Web App With Node](https://ilovecoding.org/courses/nodejs/lessons/creating-a-simple-web-app-with-nodejs)
 * [Tutorial - Running a Server Without a Framework](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Node_server_without_framework)
 * [Tutorial - Accessing Query String Parameters](https://nodejs.org/en/knowledge/HTTP/clients/how-to-access-query-string-parameters/)
-* [URI vs URL](https://www.keycdn.com/support/comparing-uri-vs-url)
+* [URI vs URL](https://danielmiessler.com/study/difference-between-uri-url/) - this is optional, but a good thing to know in the web development world
 
 ## Practice Set
 + [Lesson 7.1 Practice](./practice/exercises.md)
