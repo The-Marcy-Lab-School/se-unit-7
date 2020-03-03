@@ -37,8 +37,7 @@ Ensure that you complete all steps for Downloading, Initializing, and Configurin
 - Created a table called `projects` by running the command
 `create table projects(id SERIAL PRIMARY KEY, name TEXT NOT NULL, partners TEXT NOT NULL);`
 - **Based on this command, what do you imagine the rows and columns of your projects table to be?**
-
-To see a description of the table you just created, run the command `\d lessons`.
+- To see a description of the table you just created, run the command `\d lessons`.
 
 **Exercise 5: BASIC QUERIES - POPULATE TABLES**
 
