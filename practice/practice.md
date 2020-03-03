@@ -6,7 +6,7 @@
 
 **Exercise 0- DATABASES:**
 
-**What are relational vs. non-relational databases?**
+- **What are relational vs. non-relational databases?**
 
 **Exercise 1: SET UP**
 
