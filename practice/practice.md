@@ -4,9 +4,9 @@
 
 ### Practice
 
-**Exercise 0- DATABASES:**
+**Exercise 0: DATABASES**
 
-- **When modeling databases and doing schema design, when are single tables and multiple tables utilized?**
+- When modeling databases and doing schema design, when are single tables and multiple tables utilized?
 
 **Description of Exercise 1-8: RELATIONAL QUERIES**
 
