@@ -1,18 +1,16 @@
 # Unit 7, Lesson 5
 
-## Introduction to Databases & SQL
+## Relational Queries and Domain Modeling
 
 ### Solutions
 
 **Exercise 0:**
-There are two main types of databases, relational and non-relational. The major difference between them is how they handle data. **Relational databases are structured. You have tables and these tables may have dependencies on each other, or relationships**. For example, a database for a store will have a table for customers and one for orders. These two tables are related, because an order is made by a customer. **Non-relational databases are document-oriented. This so called document type storage allows multiple 'categories' of data to be stored in one construct or Document**. So using the previous example, a Customer document, would have the customer's information, a sub-category for all their orders, etc.
+Any time information is one-to-one _(ie. one user typically has one username matched with one password)_, then it's probably better to have it one table, since **single tables can reduce the number of joins the database will need to do in order to retrieve results**. If the data is one-to-many _(ie. many article stories can have many different tags)_, then it should be split into separate tables because **joins can reduce duplicate data, which can waste storage space, cache space, and makes the database harder to maintain.**
 
-**Exercise 2:**
-The command `l` (from the `psql` command line) outputs a list view of databases. **NOTE** The only user of your database is current you. But if you were working at a company with multiple staff members, then it would be common to see several database owners.
+[Solutions to Exercises 1-3](https://github.com/shikhasingh176/Sql-KhanAcademy-Challenges/blob/master/Challenge9-Bobby's%20Hobbies.sql)
 
-**Exercise 3:**
-The projects table will have an id row, name row, and password row. There are also some contraints that require the primary key to be a number (that's what SERIAL stands for) and requires the name and partners to text that is not null.
+[Solutions to Exercises 4-5](https://github.com/KATRINAHIGH/sql-khan-academy-challenges/blob/master/challenge10_customer_order.sql)
 
-**Exercise 6:**
-_Reflections may vary_
-Writing commands using SQL is pretty clear. However, writing indivudal commands for inputting individual pieces of data can be tedious.
+[Solutions to Exercise 6](https://github.com/shikhasingh176/Sql-KhanAcademy-Challenges/blob/master/Challenge10-Sequels%20in%20SQL.sql)
+
+[Solutions to Exercises 7-8](https://github.com/shikhasingh176/Sql-KhanAcademy-Challenges/blob/master/Challenge11-FriendBook.sql)
