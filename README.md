@@ -1,40 +1,31 @@
-# Unit 7, Lesson 5
+# Unit 7, Lesson 6
 
-## Relational Queries
+## ORM/Libraries
 
 ### Guide
 
 **Key Terms**
 
-- relational query
-- inner join
-- outer join
-- aggregate functions
-- schema
-- data modeling
+- ORM-Object Relational Mapping
+- Sequelize
+- Postman
 
 **Essential Questions**
 
-- What is a join/relational query?
-- How are the aggregate functions used within SQL?
-- How do inner joins differ from outer joins?
-- What is data modeling?
+- What common JavaScript libraries allow engineers to write SQL statements?
+- How does an Object Relational Mapping (ORM) work?
+- What are the benefits and downsides of using an ORM when creating applications?
 
 **Learning Assignments**
+_NOTE: Most of these assignments contain instructions necessary to set up your machine OR documentation for you to skim and bookmark before moving onto the project. There will be other assignments embedded into the coding exercise instructions._
 
-- Watch this 3 minute video on [Data Modeling](https://teamtreehouse.com/library/planning-the-database) in order to learn more the things to consider when creating your database.
-
-- Take 5 minutes to read this Medium post that overviews [Schema Design](https://medium.com/@kimtnguyen/relational-database-schema-design-overview-70e447ff66f9).
-
-- Follow along with below Treehouse Videos to see demos of crafting more advanced SQL queries:
-
-  1. [Filtering By Comparing](https://teamtreehouse.com/library/filtering-by-comparing-values)
-  2. [Filter on Multiple Conditions](https://teamtreehouse.com/library/filtering-on-more-than-one-condition)
-
-- Read over [Postgres Documentation - Chapter 2, Section 6: Joins Between Tables](https://www.postgresql.org/docs/8.3/tutorial-join.html) deepen your understanding of joins/relational queries.
-
-- Check out the [SQL Basics Cheat Sheet](https://github.com/treehouse/cheatsheets/blob/master/sql_basics/cheatsheet.md) to continue internalizing SQL commands.
+- [Why Use Sequelize](https://www.youtube.com/watch?v=b7Kq9uHhT_k) is an important question engineers must ask. Watch this 8 minute video to gain a solid overview of why Sequelize is used to communicate to the database from an Express server.
+- Read the [Sequelize Guides](https://sequelize-guides.netlify.com/getting-started/) to get a snapshot of how to utilize the ORM.
+- [Download Postman](https://www.postman.com/downloads/) so that you can later ensure your API is retrieving and returning data correctly. Feel free to watch the [Postman Installation Video](https://www.youtube.com/watch?v=t5n07Ybz7yI).
+- Bookmark the [JQuery Documentation](https://api.jquery.com/) for later use in your project.
 
 **Practice**
 
-- Place written responses directly into the [practice.md](practice/practice.md) file.
+- Place any written responses directly into the [written-responses.md](practice/written-response.md) file.
+- Complete the coding exercise within the [coding-exercise directory](practice/coding-exercise)
+- Follow instructions in the [instructions markdown file](practice/coding-exercise-instructions.md)
