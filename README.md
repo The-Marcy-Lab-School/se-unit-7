@@ -1,4 +1,4 @@
-# Unit 7, Lesson 5
+# Unit 7, Lesson 4
 
 ## Introduction to Databases & SQL
 
@@ -11,7 +11,6 @@ schema
 relational
 non-relational
 queries
-CRUD -
 SQL - Structured Query Language
 Postgres
 
