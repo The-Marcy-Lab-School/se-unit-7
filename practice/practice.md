@@ -1,6 +1,6 @@
 # Unit 7, Lesson 5
 
-## Relational Queries and Domain Modeling
+## Relational Queries
 
 ### Practice
 

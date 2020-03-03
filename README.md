@@ -1,6 +1,6 @@
 # Unit 7, Lesson 5
 
-## Joins, Aggregate Functions, and Data Modeling
+## Relational Queries
 
 ### Guide
 
