@@ -17,7 +17,6 @@
 + [Video Tutorial: Building RESTful APIs with Express](https://www.youtube.com/watch?v=pKd0Rpw7O48) - We'll look at REST in a future lesson, so for now focus mostly on how to use Express
 + [Free Code Camp Guide](https://guide.freecodecamp.org/nodejs/express/)
 + [Middleware Definition](https://developer.mozilla.org/en-US/docs/Glossary/Middleware)
-+ [Reading on Templating Engines]()
 
 ## Practice Set
 + [Lesson 7.2 Practice](./practice/exercises.md)

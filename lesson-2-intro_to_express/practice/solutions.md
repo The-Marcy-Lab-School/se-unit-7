@@ -41,7 +41,7 @@ app.listen(8000)
 Here's one way you might meet these requirements:
 
 ```js
-const express = require('express);
+const express = require('express');
 
 const app = express();
 
@@ -59,7 +59,7 @@ app.listen(8000);
 Here's one way you might meet these requirements:
 
 ```js
-const express = require('express);
+const express = require('express');
 const app = express();
 
 app.get('/', function(req, res){
@@ -70,14 +70,14 @@ app.get('/', function(req, res){
 app.listen(8000);
 ```
 
-5. Build a route that returns data from paramers submitted with a form. For example, send a POST request to `/` with the params of {name: 'Doug'} should respond with "Hello, Doug!"
+5. Build a route that returns data from paramers submitted with a form. For example, send a POST request to `/` with the params of `{name: 'Doug'}` should respond with "Hello, Doug!"
 
 **Suggested Answer**
 
 The trick here is to simply update the route from get to POST, and access the `name` via the request body. Remember that form data is sent via the request body, and not part of the query string. 
 
 ```js
-const express = require('express);
+const express = require('express');
 const app = express();
 
 app.post('/', function(req, res){
@@ -94,7 +94,7 @@ app.listen(8000);
 
 Note that when using Express, the `redirect` function handles sending the correct status code for us. 
 ```js
-const express = require('express);
+const express = require('express');
 const app = express();
 
 app.get('/', function(req, res){
@@ -108,7 +108,7 @@ app.get('/home', function(req, res){
 app.listen(8000);
 ```
 
-7. Build a Caesar Cipher application - your app should responds to a post request and should funciton as follows: Return your respone as a JSON object with a key of the input and a value of the output.
+7. Build a Caesar Cipher application - your app should respond to a POST request and should function as follows: Return your response as a JSON object with a key of the input and a value of the output.
 
 **Suggested Answer**
 
