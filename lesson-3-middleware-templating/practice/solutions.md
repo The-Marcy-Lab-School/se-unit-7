@@ -11,7 +11,7 @@
 ```js
 const app = express()
 
-const trackPageViews = () => {
+const trackPageViews = (next) => {
 
   const views = {}
   return (req) => {
@@ -27,9 +27,10 @@ const trackPageViews = () => {
 }
 
 app.use(trackPageViews())
+app.use(bodyParser);
 ```
 
-Another approach would be to use an ES6 class with the view object as a property and the middleware method that could run each time. 
+Another approach would be to use an ES6 class with the view object as a property and the middleware method that could run each time.
 
 2. How do templates fit into web applications? Why are they useful?
 
@@ -41,18 +42,23 @@ Another approach would be to use an ES6 class with the view object as a property
 
 **Suggested Answer**
 
-```index.pug
-html
-  head
-    title= title
-  body
-    h1= time
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Current Time</title>
+  </head>
+  <body>
+    <h1><%= time %></h1>
+  </body>
+</html>
 ```
 
 ```js
 const express = require('express')
 const app = express()
-app.set('view engine', 'pug')
+app.set('view engine', 'ejs')
 
 
 app.get('/', (req, res) => {
@@ -64,5 +70,3 @@ app.listen(3000)
 
 
 ```
-
-4. Build an application that takes in a string from the user and encrypts it using the <INSERT ANOTHER CIPHER HERE>. Render the result back in an HTML template.

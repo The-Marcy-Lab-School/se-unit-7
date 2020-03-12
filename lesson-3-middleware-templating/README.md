@@ -9,6 +9,7 @@
 
 + What is middleware? Why is it useful?
 + How do web developers use templates to build applications?
++ What are the advantages of using a template language vs raw HTML?
 
 ## Learning Assignments
 + [Middleware Definition](https://developer.mozilla.org/en-US/docs/Glossary/Middleware)
