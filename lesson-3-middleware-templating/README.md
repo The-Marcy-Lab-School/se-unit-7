@@ -15,6 +15,7 @@
 + [Middleware Definition](https://developer.mozilla.org/en-US/docs/Glossary/Middleware)
 + [Middleware in Express](https://expressjs.com/en/guide/using-middleware.html)
 + [Reading on Templating Engines](http://expressjs.com/en/guide/using-template-engines.html#using-template-engines-with-express)
++ [EJS Tutorial](https://scotch.io/tutorials/use-ejs-to-template-your-node-application)
 + [List of Express Middleware](https://expressjs.com/en/resources/middleware.html)
 
 ## Practice Set
