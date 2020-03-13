@@ -26,9 +26,63 @@ Using different HTTP verbs allows us to describe with our request how we expect 
 
 2. Choose your favorite web application. What's an example of a one-to-many and many-to-many relationship that might exist within the app?
 
+**Suggested Answer**
+
+This answer will vary depending on the application you choose. Say we chose YouTube. A few examples to choose from:
+
++ A user has many uploads, and an upload belongs to a user.
++ An uploaded video has many comments, and a comment belongs to an uploaded video.
++ An uploaded video has many tags, and a tag has many uploaded videos.
+
 3. The Marcy Lab School curriculum team needs your help to design an application to manage curriculum. Here is an overview of the organization: the team members work to produce lessons consisting of learning exercises and practice exercises. Each lesson also has essential questions and learning goals. The learning goals are tied to particular topics (such as REST/Schema Design) which fit into a broader unit (i.e. backend programming with Node)
 
 What are some of the domain objects you would have as part of the application? What tables would exist in the database? What columns should be on those tables?
+
+**Suggested Answer**
+
+A good way to approach this problem is to look at the nouns in the description of the domain. A few that jump out right away:
+
+1. Team member
+2. lessons
+3. learning and practice exercises
+4. essential questions
+5. learning goals
+6. topic
+7. unit
+
+Given this, here is an example schema that we might create. You can assume each table has timestamps for created_at and updated_at, as well as an id which is the primary key.
+
+users (or curriculum_writers)
+  * id primary key
+  * username
+
+lessons
+  * title string
+  * belongs_to user (or this could be a many-to-many with users)
+  * has_many exercises
+  * has_many learning_goals
+
+exercises
+  * type string (practice or learning)
+  * content (this could point to a file url location, or actually contain the content of the lesson in text)
+  * belongs_to lesson
+
+learning_goals
+  * belongs_to unit
+  * many_to_many with lessons
+  * description
+
+unit
+  * title
+  * description
+
+topic
+  * title
+  * description
+
+You could also make an argument that the topic/unit could be stored in a single table and optionally relate to each other.
+
+This is just one potential approach - no wrong answers here, only tradeoffs. 
 
 4. Build a full CRUD, RESTful API using Express for a Todo List. A TodoList should have many items and belong to a user. Our API should support:
 
@@ -36,4 +90,4 @@ What are some of the domain objects you would have as part of the application? W
 2. A show view to see details about an individual todo item.
 3. The ability to update a todo (i.e. mark complete)
 4. delete a todo item
-5. Create a Todo list item 
+5. Create a Todo list item

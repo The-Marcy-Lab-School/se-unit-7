@@ -1,9 +1,12 @@
 # Lesson 7.7 - Schema Design and REST
 
 ### Key Terms:
+
 + REST
 + Domain Modeling
 + Relationships
++ Schema Design
++ Entity relationships
 
 
 ### Essential Questions:
