@@ -11,10 +11,9 @@
 ```js
 const app = express()
 
-const trackPageViews = (next) => {
-
+const trackPageViews = () => {
   const views = {}
-  return (req) => {
+  return (req, res, next) => {
     const path = req.path;
     if(views[path] === undefined){
       views[path] = 1
@@ -27,7 +26,9 @@ const trackPageViews = (next) => {
 }
 
 app.use(trackPageViews())
-app.use(bodyParser);
+app.get('/', (req, res) => {
+  res.send("Hello World!");
+});
 ```
 
 Another approach would be to use an ES6 class with the view object as a property and the middleware method that could run each time.
