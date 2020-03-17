@@ -30,13 +30,13 @@
 
     - The `init:models` command has created a `/models` directory with an `index.js` file. **Pause here to explore the contents of this file.** This file will read all of the models from your `/models` directory and make them available to your application.
 
-    - The `init:config` created a `config.json`, which includes the environments. **Pause here to explore the contents of this file** Based on these environments, sequelize will choose a database configuration.
+    - The `init:config` created a `config.json`, which includes the environments. Pause here to explore the contents of this file. **For each environment's [sequelize dialect](https://sequelize.org/master/manual/dialect-specific-things.html), ensure it is set to 'postgres'**. Based on these environments, sequelize will choose a database configuration.
 
     - If other packages are needed, then they can be installed later.
 
 3.  Folder Structure
 
-    - Within `/coding-exercises`, create a directory called `app` with a sub-directory called `routes` that will be used for your express routes.
+    - Within `/coding-exercises`, create a directory called `app` and nested within that, also create a sub-directory called `routes`.
 
     - Also create a `pulbic` sub-directory within `app` directory. This subdirectory will house all of your HTML, Javascript, and other external files.
 
@@ -57,11 +57,59 @@
       - Returns middleware that parses all bodies as a string. No need to use the optional parameter
       4. Serve static files to your express app from your `/app/public` directory. An example can be found in the [express docs about static files](https://expressjs.com/en/starter/static-files.html).
 
-    . Consider Schema:
+5.  Create Routes:
 
-- Here is a [screenshot of the end goal](practice/coding-exercise-goal.png) for this project. Before creating any models for your application. Take out a pencil and paper to plan out the Sequelize model(s) that can be used to represent your SQL database.
+    - Create an `apiRoutes.js` file within it. Although you have not yet create your models, it can be helpful to set up basic routes as a framework. Use the starter code below inside of your `apiRoutes.js` file.
 
-. Create Your Models:
+    ```javascript
+    module.exports = function(app) {
+    	/**Your Routes Go Here**/
+    };
+    ```
 
-- Using the brainstorm from the previous step, actually create your model. _The [documentation on model definition](https://sequelize-guides.netlify.com/model-definition/) and [column types](https://sequelize-guides.netlify.com/column-types/) could be particular helpful during this time._
-- Within `/coding-exercise`, create
+    - Create four basic routes to represent the CRUD (_Create, Read, Update, Delete_) operations. For each route, follow the pattern of `api/[route-name-goes-here]/[data-id-if-applicable]`. For the second parameter, pass each of your routes and empty function. Use the following route names:
+
+      - GET: `/all`
+      - PUT: `/update`
+      - POST: `/new`
+      - DELETE: `/delete`
+
+6.  Consider Schema:
+
+    - Here is a [screenshot of the end goal](practice/coding-exercise-goal.png) for this project. Before creating any models for your application. Take out a pencil and paper to plan out the Sequelize model(s) that can be used to represent your SQL database. **Move on when you are confident in your schema and could _hypothetically_ (or actually!) explain your reasoning to a peer.**
+
+7.  Create Your Models:
+
+    - Using the brainstorm from the previous step, get ready to create your model.
+
+    - Within `/coding-exercise/models`, create an `item.js` file. Use the starter code below inside of your `item.js`.
+
+    ```javascript
+    module.exports = function(app) {
+    	/**Your Routes Go Here**/
+    };
+    ```
+
+    - _The [documentation on model definition](https://sequelize.org/master/manual/model-basics.html#model-definition) and [column types](https://sequelize-guides.netlify.com/column-types/) could be particular helpful during this time._ Remember, the end goal is captured in your [screenshot](practice/coding-exercise-goal.png).
+
+    - Now you have a model/models that you can use in your application. This will be created in a database table and can be used!
+
+    - **Move on when you have at least one complete model**
+
+8.  Continue Setting Up Express Application:
+
+    - Return to `server.js`.
+
+    - Set up your application to listen on PORT 3000. Pass the `listen()` method a function that will log a helper message to the terminal when your server is working. Refer to the [express documentation](http://expressjs.com/en/5x/api.html#app.listen_path_callback).
+
+    - Run the command: `node server.js` Ensure that your terminal output verifies that your server is running.
+
+9.  Connect your data model to your express routes.
+
+    - Stay withing `server.js`.
+
+    - Import your models and assign it to a constant named `db` for "database".
+
+    - Import your routes and assign it to a constant named `apiRoutes`.
+
+    - Associate your api routes with your application. Do this by invoking an instance of your `apiRoutes()` and pass in `app`.
