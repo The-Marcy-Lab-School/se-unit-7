@@ -1,5 +1,4 @@
 # Unit 7, Lesson 4
-
 ## Introduction to Databases & SQL
 
 ### Practice
@@ -9,14 +8,7 @@
 - **What are relational vs. non-relational databases?**
 
 **Exercise 1: SET UP**
-
-- Visit the [postgres.app](https://postgresapp.com/).
-Follow the instructions to install PostgreSQL and the command line tools.
-Ensure that you complete all steps for Downloading, Initializing, and Configuring.
-
-- Download [Postico](https://eggerapps.at/postico/) or another graphical user interface (GUI) where you can ultimately write SQL queries. Postico is free! Follow the instructions on the website for set up.
-
-- _OPTIONAL_: If you are more of a visual learner, set up Postgres and a GUI as you follow along with this [Installing PostgreSQL Video](https://www.youtube.com/watch?v=xaWlS9HtWYw).
+1. Install Postgres by following the steps listed in the [Launch School - Intro to SQL Book](https://launchschool.com/books/sql)
 
 **Exercise 2: ACCESS COMMAND LINE**
 
