@@ -19,4 +19,4 @@
 + [Middleware Definition](https://developer.mozilla.org/en-US/docs/Glossary/Middleware)
 
 ## Practice Set
-+ [Lesson 7.2 Practice](./practice/exercises.md)
++ [Lesson 7.2 Practice](https://github.com/The-Marcy-Lab-School/se-unit-7/tree/master/lesson-2-intro_to_express/practice)
