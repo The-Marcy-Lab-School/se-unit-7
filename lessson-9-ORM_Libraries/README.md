@@ -26,6 +26,5 @@ _NOTE: Most of these assignments contain instructions necessary to set up your m
 
 **Practice**
 
-- Place any written responses directly into the [written-responses.md](practice/written-response.md) file.
-- Complete the coding exercise within the [coding-exercise directory](practice/coding-exercise)
 - Follow instructions in the [instructions markdown file](practice/coding-exercise-instructions.md)
+- Complete the coding exercise within the [coding-exercise directory](practice/coding-exercise)
