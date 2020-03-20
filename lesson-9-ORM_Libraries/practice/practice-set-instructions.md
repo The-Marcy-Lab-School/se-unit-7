@@ -5,33 +5,25 @@
 - `cd sequelize-practice`
 - `git init`
 
-2.  Create a .gitignore file in the root of your project that contains the following:
-
-    ```
-    node_modules
-    *.log
-    .DS_Store
-    ```
-
-3.  Build out a simple express application:
+2.  Build out a simple express application:
     a. `npm init`
     b. `index.js` has been created for you. It sets up and express app with some middleware.
 
-4.  Install nodemon
+3.  Install nodemon
     a. run the command `npm install nodemon --save-dev`
     b. open the `package.json` and this key/value pair to the `scripts{}` object:
     "start": "nodemon [input the path to your index.js]"
 
     Now once you npm start your project, new file changes will auto-restart your project, instead of you having to do it manually.
 
-5.  Check that your server is running
+4.  Check that your server is running
     a. run `npm start`
     b. go to localhost:3000 in your browser
     c. you should see a blank screen with **Cannot GET/**
 
     **This would be a great time to make a git commit!**
 
-6.  Install Sequelize and the Command Line Interface
+5.  Install Sequelize and the Command Line Interface
     a. run the command `npm install sequelize pg pg-hstore`
     b. run the command `npm install --save-dev sequelize-cli`
     c. open the `package.json` and this key/value pair to the `scripts{}` object:
@@ -41,10 +33,10 @@
 
     This will install Sequelize and save it in our package.json file. Installing pg-hstore Sequelize Postgres-specific hstore within Sequelize.
 
-7.  Create database
+6.  Create Database
     a. `createdb sequelize-practice`
 
-8.  Set Up a Models
+7.  Set Up a Models
     a. `mkdir models`
     b. `cd models`
     c. `touch index.js`
@@ -85,7 +77,7 @@
 
     **This would be a great time to make a git commit!**
 
-9.  Plan your Schema's.
+8.  Plan your Schema's.
     Your models must follow the below requirements. Read the requirements below. Jot down notes here in the README, in a notebook, or in another place of your choosing:
 
     a. Customer:
@@ -113,7 +105,7 @@
     - text
     - stars (0-5)
 
-10. Create your models.
+9.  Create your models.
 
     Using your schema, create your models withing the `/models/index.js` file. Sequelize guides can be particularly helpful for [model definition](https://sequelize-guides.netlify.com/model-definition/), [column types](https://sequelize-guides.netlify.com/column-types/), and [validations](https://sequelize.org/master/manual/models-definition.html#validations)
 
@@ -123,7 +115,7 @@
 
     **This would be a great time to make a git commit!**
 
-11. Sync your models to your database.
+10. Sync your models to your database.
 
     Read the docs on [model synchronization](https://sequelize.org/master/manual/model-basics.html#model-synchronization).
 
@@ -141,7 +133,7 @@
 
     **This would be a great time to make a git commit!**
 
-12. Congratulations!!!
+11. Congratulations!!!
 
     Pause here. Review what you have done so far! This would be a great time to:
 
@@ -149,7 +141,7 @@
     - add new columns to any of your models
     - dive deeper into reading the Sequelize documenation
 
-13. Set up Routes
+12. Set up Routes
 
         - Return back to the root level of this project using `cd../` to return to your `sequelize-practice` directory.
 
@@ -192,12 +184,11 @@
 
     **This would be a great time to make a git commit!**
 
-
     c. Using similar starter code, ensure that your other routes are set up correctly for Address, Food, and Reviews.
 
     d. Test out each of your routes in `localhost:3000`. Once you have verified that they are set up, **this would be a great time to make a git commit!**
 
-14. Seed the database with mock data:
+13. Seed the database with mock data:
 
     At this time, take a look at the pre-made `seed.js` file in the `practice/1.practice-set/scripts` directory. This seed file aligns with the solution code for this practice. However, if you have different columns for your models, then ensure you update this `seed.js` file accordingly.
 
@@ -218,7 +209,7 @@
 
     After you have checked over your tables, **this would be a great time to make a git commit!**
 
-15. Create A Route To View All Customers
+14. Create A Route To View All Customers
 
     Open your `customer.js` file.
 
@@ -236,7 +227,7 @@
     Go to your browser and navigate to `http://localhost:3000/customer`. Your Route is set up correctly if it looks something like this:
     [{"id":1,"name":"User 1","phoneNumber":"(555)555-5555","email":"user1@email.com","createdAt":"2020-03-20T05:15:07.152Z","updatedAt":"2020-03-20T05:15:07.152Z"},{"id":2,"name":"User 2","phoneNumber":"(555)555-5555","email":"user2@email.com","createdAt":"2020-03-20T05:15:07.152Z","updatedAt":"2020-03-20T05:15:07.152Z"},{"id":3,"name":"User 3","phoneNumber":"(555)555-5555","email":"user3@email.com","createdAt":"2020-03-20T05:15:07.152Z","updatedAt":"2020-03-20T05:15:07.152Z"}]
 
-16. Create Routes to View All Addresses, Foods, and Reviews
+15. Create Routes to View All Addresses, Foods, and Reviews
 
     - Create a route that:
       a. gets all addresses
@@ -263,7 +254,7 @@
     - `\c sequelize-practice`
     - `SELECT * FROM Reviews;`
 
-17. Create a Route to View A Single Customer
+16. Create a Route to View A Single Customer
 
     - Open your `customer.js` file.
 
@@ -275,10 +266,10 @@
 
     **This would be a great time to make a git commit!**
 
-18. Create a Route to View A Single Address, Food, and Review
+17. Create a Route to View A Single Address, Food, and Review
 
     Check each route in your browser.
 
     Once you have verified that your routes are working, then **this would be a great time to make a git commit!**
 
-19. Congratulations! You have set up a basic API using Postgres, Sequelize, and Express!
+18. Congratulations! You have set up a basic API using Postgres, Sequelize, and Express! There is, of course, much more you could add and other ways to test your API.
