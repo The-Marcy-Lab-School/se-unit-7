@@ -35,6 +35,6 @@
 ### Practice:
 
 The practice exercises will push your understanding of full stack web applications. The goal is to understand some of the most common security risks and how to defend applications against those risks as an engineer.
-[Practice Exercises](./practice)
+[Practice Exercises](lesson-11-authentication_authorization/practice)
 
 For more lessons and activites, checkout [Hacksplaining's interactive activities](https://www.hacksplaining.com/lessons).
