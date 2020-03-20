@@ -8,7 +8,10 @@
 
 - ORM-Object Relational Mapping
 - Sequelize
-- Postman
+- Model Definition
+- Validations
+- Associations
+- Queries
 
 **Essential Questions**
 
@@ -17,15 +20,17 @@
 - What are the benefits and downsides of using an ORM when creating applications?
 
 **Learning Assignments**
-_NOTE: Most of these assignments contain instructions necessary to set up your machine OR documentation for you to skim and bookmark before moving onto the project. There will be other assignments embedded into the coding exercise instructions._
 
 - [Why Use Sequelize](https://www.youtube.com/watch?v=b7Kq9uHhT_k) is an important question engineers must ask. Watch this 8 minute video to gain a solid overview of why Sequelize is used to communicate to the database from an Express server.
-- Read the [Sequelize Guides](https://sequelize-guides.netlify.com/getting-started/) to get a snapshot of how to utilize the ORM.
-- [Download Postman](https://www.postman.com/downloads/) so that you can later ensure your API is retrieving and returning data correctly. Feel free to watch the [Postman Installation Video](https://www.youtube.com/watch?v=t5n07Ybz7yI).
-- Bookmark the [JQuery Documentation](https://api.jquery.com/) for later use in your project.
+- Read the [Sequelize Guides](https://sequelize-guides.netlify.com/getting-started/) to get a snapshot of how to utilize the ORM. These guides hold similar information as the offical docs, but in a more bit-sized format.
+- Dive deeper and get specific details from the office Sequelize Docs on the following topics:
+  - [Model Definition](https://sequelize.org/master/manual/model-basics.html#model-definition)
+  - [Validations](https://sequelize.org/master/manual/validations-and-constraints.html)
+  - [Associations](https://sequelize.org/master/manual/assocs.html)
+  - [Simple Queries](https://sequelize.org/master/manual/model-querying-basics.html)
 
 **Practice**
 
-- Follow instructions in the [instructions markdown file](practice/coding-exercise-instructions.md)
-- Complete the coding exercise within the [coding-exercise directory](practice/coding-exercise)
-- Practice Set instructions
+- Complete the [practice](practice/0.practice/practice.js). Practice problems are embedded in the comments of the `practice.js`. Code our your solution underneath each comment block.
+- Follow instructions in the [instructions markdown file](practice/practice-set-instructions.md)
+- Complete the coding mini project within the [practice-set](practice/1.practice-set)
