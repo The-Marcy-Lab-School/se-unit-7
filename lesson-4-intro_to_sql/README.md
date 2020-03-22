@@ -2,19 +2,18 @@
 ## Introduction to Databases & SQL
 
 ### Key Terms
-- database
-- data
+- data definition language
+- data manipulation language
 - relational
-- non-relational
-- queries
 - SQL - Structured Query Language
-- Postgres
+- schema
 
 ### Essential Questions
-- What is SQL and why is it used?
-- What is a database and how can they be accessed from the command line?
+- What is a relational database?
+- What is a relational database management system (RDBMS)?
 - How are relational and non-relational databases different?
-- Why are other tools used when accessing databases?
+- What is PostgreSQL?
+- How do we define relations in SQL?
 
 ### Learning Assignments
 1. [What are Databases & SQL - Video](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql) - Watch this two minute video to learn what databases and SQL are, as well as how the tech industry uses them.
