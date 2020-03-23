@@ -12,19 +12,57 @@
 
 Using different HTTP verbs allows us to describe with our request how we expect our applications to behave. We can make reasonable expectations to what we're doing without knowing too much detail about how it's being accomplished.
 
-1. You've recently learned about an API for a cat sitting company. The API is fully RESTful for a resource called `cats`. You also happen to know that their database is running Postgresql on the backend. What are the five types of requests the API will respond to? List the HTTP method, url, and what SQL the request will fire in the table below.
+1. You've recently learned about an API for a cat sitting company. The API is fully RESTful for a resource called `cats`. You also happen to know that their database is running Postgresql on the backend. What are the five types of requests the API will respond to? List the HTTP method, url, and what SQL the request will fire, and the corresponding Sequelize method in the table below.
 
 ** Suggested Answer**
 
-| http method  |  path |  sql | description
-|---|---|---|---|
-|  GET |  /cats | SELECT * FROM cats;| Index to list all cats |
-|  POST |  /cats |  INSERT INTO cats VALUES (...) | create a new cat|
-|  GET   | /cats/:id| SELECT * FROM cats WHERE id = ?; | Show an individual cat
-| PATCH/PUT | /cats/:id | UPDATE cats SET (value=?) WHERE id=?;| update a cat
-| DELETE | /cats/:id |DELETE FROM cats WHERE id=?; | destroy an individual cat record
+| http method  |  path |  sql |  Sequelize Method | description
+|---|---|---|---|---|
+|  GET |  /cats | Cat.all() |SELECT * FROM cats;| Index to list all cats |
+|  POST |  /cats | Cat.create() |INSERT INTO cats VALUES (...) | create a new cat|
+|  GET   | /cats/:id| Cat.find() |SELECT * FROM cats WHERE id = ?; | Show an individual cat
+| PATCH/PUT | /cats/:id | Cat.find(id).update()|UPDATE cats SET (value=?) WHERE id=?;| update a cat
+| DELETE | /cats/:id |Cat.destroy(id)|DELETE FROM cats WHERE id=?; | destroy an individual cat record
 
-2. Choose your favorite web application. What's an example of a one-to-many and many-to-many relationship that might exist within the app?
+3. You're working on a blogging application and doing some debugging. You see in the logs that the following SQL has fired:
+
+```
+SELECT * FROM articles WHERE id = 9;
+```
+
+Given that the application is RESTful, what HTTP method and request would you expect to have been made to fire that SQL?
+
+**Suggested Answer**
+
+GET /articles/9
+
+4. You've been hired to do some work for Discogs, an application to help users track a vinyl record collection. A `Collection` has many `Albums`, and an `Album` has many collections via a join table called `Ownership`. You've been asked to build a feature that allows to remove an album from their collection. What HTTP Method/URL/controller action would you use to implement this feature?
+
+**Suggested Answer**
+
+There's really no wrong answer to this question: some people would think of this as updating the collection, and therefore use `PUT /collections/:id` to do the updating, via a `Collections#update` action. This can get a bit messy, however, when you start adding albums to a collection.
+
+
+```js
+const CollectionsController = {
+  update: (req, res) => {
+    switch (req.param('type')) {
+      case 'add_record':
+        // add record to collection
+      case 'delete_record':
+        // remove record from collection
+      case 'update collection':
+        // update properties of the collection, such as name
+      default:
+
+    }
+  }
+}
+```
+
+A better way is to use a separate action for deleting. Instead of thinking about this as removing a record from a collection, we can think of this as destroying an ownership. Therefore, the request can be `DELETE /ownerships/:id` and route to an `Ownerships#destroy` method. 
+
+5. Choose your favorite web application. What's an example of a one-to-many and many-to-many relationship that might exist within the app?
 
 **Suggested Answer**
 
@@ -34,7 +72,7 @@ This answer will vary depending on the application you choose. Say we chose YouT
 + An uploaded video has many comments, and a comment belongs to an uploaded video.
 + An uploaded video has many tags, and a tag has many uploaded videos.
 
-3. The Marcy Lab School curriculum team needs your help to design an application to manage curriculum. Here is an overview of the organization: the team members work to produce lessons consisting of learning exercises and practice exercises. Each lesson also has essential questions and learning goals. The learning goals are tied to particular topics (such as REST/Schema Design) which fit into a broader unit (i.e. backend programming with Node)
+6. The Marcy Lab School curriculum team needs your help to design an application to manage curriculum. Here is an overview of the organization: the team members work to produce lessons consisting of learning exercises and practice exercises. Each lesson also has essential questions and learning goals. The learning goals are tied to particular topics (such as REST/Schema Design) which fit into a broader unit (i.e. backend programming with Node)
 
 What are some of the domain objects you would have as part of the application? What tables would exist in the database? What columns should be on those tables?
 
@@ -82,7 +120,7 @@ topic
 
 You could also make an argument that the topic/unit could be stored in a single table and optionally relate to each other.
 
-This is just one potential approach - no wrong answers here, only tradeoffs. 
+This is just one potential approach - no wrong answers here, only tradeoffs.
 
 4. Build a full CRUD, RESTful API using Express for a Todo List. A TodoList should have many items and belong to a user. Our API should support:
 
