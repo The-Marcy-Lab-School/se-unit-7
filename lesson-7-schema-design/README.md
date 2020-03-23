@@ -12,7 +12,7 @@
 ### Essential Questions:
 + What are some of the important tradeoffs to consider when doing domain modeling?
 + What is REST? Why is this important for web applications?
-+ What's the difference between a one-to-many and many-to-many relationship? How do we model those using SQL?
++ What's the difference between a one-to-one, one-to-many and many-to-many relationship? How do we model those using SQL?
 
 ### Learning Assignments:
 + [Intro to Domain Modeling](https://medium.com/@olegchursin/a-brief-introduction-to-domain-modeling-862a30b38353)

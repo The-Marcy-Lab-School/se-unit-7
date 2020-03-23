@@ -1,6 +1,6 @@
 # Practice Exercises 7.7
 
-0. What are the six types of HTTP requests that a browser knows how to make? Why is it important to use different types of requests?
+0. What are the five types of HTTP requests that a browser knows how to make? Why is it important to use different types of requests?
 
 **Suggested Answer**
 
@@ -24,7 +24,7 @@ Using different HTTP verbs allows us to describe with our request how we expect 
 | PATCH/PUT | /cats/:id | UPDATE cats SET (value=?) WHERE id=?;| update a cat
 | DELETE | /cats/:id |DELETE FROM cats WHERE id=?; | destroy an individual cat record
 
-2. Choose your favorite web application. What's an example of a one-to-many and many-to-many relationship that might exist within the app?
+2. Choose three of your favorite web applications. What's an example of a one-to-many and many-to-many relationship that might exist within each app?
 
 **Suggested Answer**
 
@@ -61,15 +61,17 @@ lessons
   * belongs_to user (or this could be a many-to-many with users)
   * has_many exercises
   * has_many learning_goals
-
+has_many users (or team_members
 exercises
   * type string (practice or learning)
   * content (this could point to a file url location, or actually contain the content of the lesson in text)
   * belongs_to lesson
-
++ lesson_learning_goals
+   + belongs_to lesson
+   + belongs_to learning_goal
 learning_goals
   * belongs_to unit
-  * many_to_many with lessons
+  * has_many with lessons (this is a many-to-many relationship, and would likely require a join table
   * description
 
 unit
@@ -84,10 +86,10 @@ You could also make an argument that the topic/unit could be stored in a single 
 
 This is just one potential approach - no wrong answers here, only tradeoffs. 
 
-4. Build a full CRUD, RESTful API using Express for a Todo List. A TodoList should have many items and belong to a user. Our API should support:
+4. Build a full CRUD, RESTful API using Express for a Todo List. A TodoList should have many items and belong to a user. Each endpoint should respond with the appropriate JSON response. Our API should support:
 
-1. An index view to see a list of todos.
-2. A show view to see details about an individual todo item.
+1. An index route to see a list of todos.
+2. A show route to see details about an individual todo item.
 3. The ability to update a todo (i.e. mark complete)
 4. delete a todo item
 5. Create a Todo list item
