@@ -22,13 +22,13 @@ A web application authenticates a user without first invalidating the existing s
 
 1. Injection attacks often rely on the attacker being able to craft an input that will prematurely close the argument string in which they appear in the SQL statement. This is why you will often see ' or " characters in attempted SQL injection attacks.
 
-2. See refactored `getCurrentUser()` [solution](/lesson-6-authentication_authorization/solutions/1-injection/injection.js)\*\*
+2. See refactored `getCurrentUser()` [solution](/lesson-7-authentication_authorization/solutions/1-injection/injection.js)\*\*
 
 ### Exercise 4 - Security Misconfiguration Solution:
 
 1. Exposing API keys can lead to others using the key to do illicit activity, allows others to use data, and could lead to increased costs if an API key is connected to a bank account.
 
-2. A potential [solution](/lesson-6-authentication_authorization/solutions/weather-app-solutions.js) includes
+2. A potential [solution](/lesson-7-authentication_authorization/solutions/weather-app-solutions.js) includes
    a. creating an environment variable called `CLIENT_SECRET` or something else.
    b. use the environment variable within the code base rather than the API Key itself.
 
@@ -38,4 +38,4 @@ A web application authenticates a user without first invalidating the existing s
 
 ### Exercise 5 - Data Exposure Solution:
 
-1. See a potential [solution for `checkPassword`](/lesson-6-authentication_authorization/solutions/4-data-exposure/check-password-1.js)
+1. See a potential [solution for `checkPassword`](/lesson-7-authentication_authorization/solutions/4-data-exposure/check-password-1.js)

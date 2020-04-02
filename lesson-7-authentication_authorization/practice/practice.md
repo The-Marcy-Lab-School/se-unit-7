@@ -39,7 +39,7 @@ const getCurrentUser = email => {
 
 **1. What makes this vulnerable code?**
 
-- Open the [`injection.js`](/lesson-6-authentication_authorization/practice/exercises/1-injection/injection.js) file.
+- Open the [`injection.js`](/lesson-7-authentication_authorization/practice/exercises/1-injection/injection.js) file.
 
 **2. Refactor the `getCurrentUser()` function so that it is more secure.**
 
@@ -51,7 +51,7 @@ const getCurrentUser = email => {
 
 **1. What is the danger of exposing API keys like this in your app?**
 
-**2. Using the [weather-app.js](/lesson-6-authentication_authorization/practice/exercises/2-security-misconfiguration/weather-app.js) file, correct the problem of exposing the API Key/Secret on line 24. Some solutions may require you to to create other files.**
+**2. Using the [weather-app.js](/lesson-7-authentication_authorization/practice/exercises/2-security-misconfiguration/weather-app.js) file, correct the problem of exposing the API Key/Secret on line 24. Some solutions may require you to to create other files.**
 
 **3. What are the limitations of using environment variables for storing API Keys?**
 
@@ -59,10 +59,10 @@ const getCurrentUser = email => {
 
 - (3 min) - Read about the threats of [sensitive data exposure](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A3-Sensitive_Data_Exposure).
 - (5 min) - Review the interactive lesson from [HackSplaining - Password Mismanagement](https://www.hacksplaining.com/).
-- Open the the file entitled[`4-data-exposure`](/lesson-6-authentication_authorization/practice/exercises/4-data-exposure)
-- Run the [password.html file](/lesson-6-authentication_authorization/practice/exercises/4-data-exposure/password.html) in your browser.
+- Open the the file entitled[`4-data-exposure`](/lesson-7-authentication_authorization/practice/exercises/4-data-exposure)
+- Run the [password.html file](/lesson-7-authentication_authorization/practice/exercises/4-data-exposure/password.html) in your browser.
 
-**1. Within the [`check-password.js` file](/lesson-6-authentication_authorization/practice/exercises/4-data-exposure/check-password-1.js), code a function `checkPassword()` that:**
+**1. Within the [`check-password.js` file](/lesson-7-authentication_authorization/practice/exercises/4-data-exposure/check-password-1.js), code a function `checkPassword()` that:**
 
 - requires users to create a password with:
   - minimum eight characters
