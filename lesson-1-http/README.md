@@ -1,4 +1,4 @@
-# Unit 7 Lesson 1: HTTP Utilities
+# Lesson 1: HTTP Utilities
 
 ## Key Terms
 * Request/Response
@@ -23,4 +23,4 @@
 * [URI vs URL](https://danielmiessler.com/study/difference-between-uri-url/) - this is optional, but a good thing to know in the web development world
 
 ## Practice Set
-+ [Lesson 7.1 Practice](./practice/exercises.md)
++ [Practice](./practice/exercises.md)
