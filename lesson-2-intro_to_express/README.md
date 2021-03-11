@@ -1,4 +1,4 @@
-# Unit 7 Lesson 2: Middleware and Express
+# Lesson 2: Middleware and Express
 
 ## Key Terms
 + Express
@@ -19,4 +19,4 @@
 + [Middleware Definition](https://developer.mozilla.org/en-US/docs/Glossary/Middleware)
 
 ## Practice Set
-+ [Lesson 7.2 Practice](https://github.com/The-Marcy-Lab-School/se-unit-7/tree/master/lesson-2-intro_to_express/practice)
++ [Practice](./practice)
