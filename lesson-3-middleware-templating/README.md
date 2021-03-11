@@ -1,4 +1,4 @@
-# Unit 7 Lesson 3: Middleware and Express
+# Lesson 3: Middleware and Express
 
 ## Key Terms
 + Middleware
