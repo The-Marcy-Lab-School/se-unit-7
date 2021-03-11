@@ -1,6 +1,4 @@
-# Lesson 7.0 - Notes
-
-## Intro to Node.js and NPM
+# # Intro to Node.js and NPM
 
 ### Key Terms:
 
