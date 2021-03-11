@@ -1,5 +1,4 @@
-# Unit 7, Lesson 4
-## Introduction to Databases & SQL
+# Lesson 4: Introduction to Databases & SQL
 
 ### Key Terms
 - data definition language
@@ -37,5 +36,3 @@
 ### Additional Practice
 - [Lesson 4 Practice](./practice/)
 
-### Exit Ticket
-- [Lesson 4 Exit Ticket](https://github.com/The-Marcy-Lab-School/exit-ticket-7_4)
