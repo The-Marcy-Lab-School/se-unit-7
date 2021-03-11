@@ -1,6 +1,4 @@
-# Unit 7, Lesson 5
-
-## Relational Queries
+# Lesson 5: Relational Queries
 
 ### Guide
 
@@ -37,4 +35,4 @@
 
 **Practice**
 
-- Place written responses directly into the [practice.md](practice/practice.md) file.
+ [Practice](practice/practice.md) 
