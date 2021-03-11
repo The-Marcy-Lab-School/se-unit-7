@@ -1,4 +1,4 @@
-# Unit 7, Lesson 5
+# Lesson 5
 
 ## Relational Queries
 
