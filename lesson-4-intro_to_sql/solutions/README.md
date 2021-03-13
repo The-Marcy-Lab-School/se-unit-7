@@ -1,6 +1,4 @@
-# Unit 7, Lesson 4
-
-## Introduction to Databases & SQL
+# Introduction to Databases & SQL
 
 ### Solutions
 

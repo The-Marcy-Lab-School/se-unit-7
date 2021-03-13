@@ -1,4 +1,4 @@
-# Practice Exercises 7.2
+# Practice Exercises
 
 1. Given everything you have learned so far, how might we use front-end code in conjunction with our back-end applications? Why might we want to build this way?
 

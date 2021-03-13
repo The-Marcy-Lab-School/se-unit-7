@@ -1,4 +1,4 @@
-# Lesson 7.0 - Practice Exercises
+# Lesson 0 - Practice Exercises
 
 ## Intro to Node.js and NPM
 

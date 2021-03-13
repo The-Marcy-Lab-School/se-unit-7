@@ -1,4 +1,4 @@
-# Lesson 5: Relational Queries
+# Relational Queries
 
 ### Guide
 

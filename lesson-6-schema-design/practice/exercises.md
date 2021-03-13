@@ -1,4 +1,4 @@
-# Practice Exercises 7.7
+# Practice Exercises 
 
 0. What are the five types of HTTP requests that a browser knows how to make? Why is it important to use different types of requests?
 

@@ -1,4 +1,4 @@
-# Lesson 3: Middleware and Express
+# Middleware and Express
 
 ## Key Terms
 + Middleware
@@ -19,4 +19,4 @@
 + [List of Express Middleware](https://expressjs.com/en/resources/middleware.html)
 
 ## Practice Set
-+ [Lesson 7.3 Practice](./practice/exercises.md)
++ [Practice](./practice/exercises.md)
