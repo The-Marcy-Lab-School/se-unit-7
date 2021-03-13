@@ -1,4 +1,4 @@
-# Lesson 1: HTTP Utilities
+# HTTP Utilities
 
 ## Key Terms
 * Request/Response

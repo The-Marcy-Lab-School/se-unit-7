@@ -1,4 +1,4 @@
-# Lesson 4: Introduction to Databases & SQL
+#  Introduction to Databases & SQL
 
 ### Key Terms
 - data definition language

@@ -1,4 +1,4 @@
-# Lesson 7.6 - Solutions
+# Solutions
 
 ## Authorization and Authentication
 

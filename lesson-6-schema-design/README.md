@@ -1,4 +1,4 @@
-# Lesson 7.6 - Schema Design and REST
+# Schema Design and REST
 
 ### Key Terms:
 + REST

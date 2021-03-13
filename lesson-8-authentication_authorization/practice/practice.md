@@ -1,4 +1,4 @@
-# Lesson 7.6 - Practice Exercises
+# Practice Exercises
 
 ## Authorization and Authentication
 

@@ -1,4 +1,4 @@
-# Lesson 7.1 Practice Exercises
+# Lesson 1 Practice Exercises
 
 0. Describe the purpose of HTTP Status Codes. Why are these important?
 

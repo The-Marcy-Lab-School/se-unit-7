@@ -1,4 +1,4 @@
-# Unit 7 Lesson 6 - Authorization and Authentication
+# Authorization and Authentication
 
 ## Key Terms:
 - Authentication
@@ -32,7 +32,4 @@ This tutorial will introduce you to the tools that we will use to authenticate u
 
 ### Theory
 These practice exercises will push your understanding of full stack web development. The goal is to help you understand some of the most common security risks and how to defend applications against those risks as an engineer.
-[Practice Exercises](/lesson-6-authentication_authorization/practice)
-
-## Assignment
-* Unit 7 Lab
+[Practice Exercises](./practice)
