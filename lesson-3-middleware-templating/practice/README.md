@@ -2,7 +2,7 @@
 
 0. In your own words, what is the purpose of middleware in web applications? Why is it useful?
 
-1. Write a custom middleware function for an express application that tracks how many times a page has been viewed and logs that count to the console.
+1. Write a custom middleware function for an express application that tracks how many times a page has been viewed and logs that count to the console. You should account for the app being able to display multiple, different pages. 
 
 2. How do templates fit into web applications? Why are they useful?
 
