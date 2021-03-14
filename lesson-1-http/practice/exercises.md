@@ -10,7 +10,7 @@
 
 For the following questions, write your code in `node-http-application`.
 
-3. In `node-http-application`, use the `http` library to create a hello world application. The app should return the plain text of "Hello World" for each response, and should run on port `8000`. You can start your server using the `npm start command`
+3. In `node-http-application`, use the `http` library to create a hello world application. The app should return the plain text of "Hello World" for each response, and should run on port `8000`. You can start your server using the command `npm start`.
 
 4. Update your server function so that your application responds differently to different pathnames. If the path is `/`, the app should return a plain text response of "Hello World". If the path is `/dogs`, the app should return a plain text response of "Hello Dogs". For any other path, we should return a plain text message of "Sorry, that route does not exist."
 
