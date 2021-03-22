@@ -21,18 +21,16 @@
    * Getting Started Section
    * Your First Database: Schema
 
+3. Codecademy - [Learn SQL](https://www.codecademy.com/learn/learn-sql)
+  * Manipulation
+  * Queries
+  * Aggregate Functions
+
 **Review and Bookmark the Following Resources**
 - [Postgres Documentation](https://www.postgresql.org/docs/12/index.html) - Bookmark the documentation to Postgres. Read over[Chapter 2 - The SQL Langage](https://www.postgresql.org/docs/12/tutorial-sql.html) to gain an deeper overview of using SQL within Postgres.
 - [SQL Basics Cheat Sheet](https://github.com/treehouse/cheatsheets/blob/master/sql_basics/cheatsheet.md)
 
-**Optional Video Content**
-- Watch the below Treehouse Videos to see demos of writing basic SQL statements. Each video is about 3 minutes along and is followed by a brief exercise for you to complete in order to actively follow along with the videos:
-
-  1. [Retrieve All Information](https://teamtreehouse.com/library/your-first-sql-statement)
-  2. [Retrieve Specific Columns of Data](https://teamtreehouse.com/library/retrieving-specific-columns-of-information)
-  3. [Categorize Output](https://teamtreehouse.com/library/categorizing-your-output-with-as)
-  4. [Searching Tables With 'Where'](https://teamtreehouse.com/library/searching-tables-with-where)
 
 ### Additional Practice
-- [Lesson 4 Practice](./practice/)
+- [Practice](./practice/)
 

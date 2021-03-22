@@ -24,10 +24,8 @@
 
 - Take 5 minutes to read this Medium post that overviews [Schema Design](https://medium.com/@kimtnguyen/relational-database-schema-design-overview-70e447ff66f9).
 
-- Follow along with below Treehouse Videos to see demos of crafting more advanced SQL queries:
-
-  1. [Filtering By Comparing](https://teamtreehouse.com/library/filtering-by-comparing-values)
-  2. [Filter on Multiple Conditions](https://teamtreehouse.com/library/filtering-on-more-than-one-condition)
+- Codecademy - [Learn SQL](https://www.codecademy.com/learn/learn-sql)
+  * Multiple Tables
 
 - Read over [Postgres Documentation - Chapter 2, Section 6: Joins Between Tables](https://www.postgresql.org/docs/8.3/tutorial-join.html) deepen your understanding of joins/relational queries.
 
@@ -35,4 +33,4 @@
 
 **Practice**
 
- [Practice](practice/practice.md) 
+ [Practice](./practice/) 
