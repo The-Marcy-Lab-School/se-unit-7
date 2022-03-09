@@ -9,7 +9,6 @@
 - module
 - require
 - module.exports
-- caching
 - localhost
 - network
 
@@ -23,7 +22,7 @@
 
 ### Learning Assignments:
 
-1. Watch a brief introduction to [Node.js](https://www.youtube.com/watch?v=As0fDD-OUN8). You'll also get insight into npm packages, servers, and other tips.
+1. **Video:** Watch a brief introduction to [Node.js](https://www.youtube.com/watch?v=uVwtVBpw7RQ). 
 
 2. Codecademy Lessons: [Learn Node.js](https://www.codecademy.com/learn/learn-node-js)
 
