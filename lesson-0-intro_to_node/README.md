@@ -24,7 +24,9 @@
 
 1. **Video:** Watch a brief introduction to [Node.js](https://www.youtube.com/watch?v=uVwtVBpw7RQ). 
 
-2. Codecademy Lessons: [Learn Node.js](https://www.codecademy.com/learn/learn-node-js)
+2. **Video:** Watch a brief introduction to [NPM](https://www.youtube.com/watch?v=ZNbFagCBlwo).
+
+3. Codecademy Lessons: [Learn Node.js](https://www.codecademy.com/learn/learn-node-js)
 
 3. Dive deeper into what node.js by visiting the offical website and reading the entirety of the [_Quick Start_ section](https://nodejs.dev). If you do not already have Node.js installed on your machine, then install it now with the instructions found in the _Quick Start_.
 
