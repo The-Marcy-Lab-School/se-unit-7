@@ -1,6 +1,7 @@
 # HTTP Utilities
 
 ## Key Terms
+* Localhost
 * Request/Response
 * Headers
 * Status Code
