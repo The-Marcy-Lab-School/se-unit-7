@@ -9,8 +9,6 @@
 - module
 - require
 - module.exports
-- localhost
-- network
 
 ### Essential Questions:
 
