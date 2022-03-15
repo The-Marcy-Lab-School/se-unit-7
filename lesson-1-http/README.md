@@ -14,6 +14,7 @@
 * How does Node handle routes and routing for us in our web applications?  
 
 ## Learning Assignments
+* Learn the basics about a [localhost](https://whatismyipaddress.com/localhost).
 * [Tutorial - Create a Simple Web App With Node](https://ilovecoding.org/courses/nodejs/lessons/creating-a-simple-web-app-with-nodejs)
 * [Tutorial - Running a Server Without a Framework](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Node_server_without_framework)
 * [Tutorial - Accessing Query String Parameters](https://nodejs.org/en/knowledge/HTTP/clients/how-to-access-query-string-parameters/)
