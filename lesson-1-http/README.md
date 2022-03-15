@@ -15,9 +15,10 @@
 
 ## Learning Assignments
 * Learn the basics about a [localhost](https://whatismyipaddress.com/localhost).
-* [Tutorial - Create a Simple Web App With Node](https://ilovecoding.org/courses/nodejs/lessons/creating-a-simple-web-app-with-nodejs)
+* [Tutorial - How to Create a Hello World HTTP Server](https://nodejs.org/en/knowledge/HTTP/servers/how-to-create-a-HTTP-server/)
 * [Tutorial - Accessing Query String Parameters](https://nodejs.org/en/knowledge/HTTP/clients/how-to-access-query-string-parameters/)
 * [MDN - HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+* [Tutorial - Create a Web App With Node](https://ilovecoding.org/courses/nodejs/lessons/creating-a-simple-web-app-with-nodejs)
 * [URI vs URL](https://danielmiessler.com/study/difference-between-uri-url/) 
 
 ## Resources
