@@ -4,7 +4,7 @@
 
 1. On your computer, create a folder called `node-http-application`. To initialize a node project, `cd node-http-application` into the newly created folder and then run `npm init`. 
 
-2. Create an `index.js` file in this folder. Use the `http` library to create a [hello world node application](https://nodejs.org/en/knowledge/HTTP/servers/how-to-create-a-HTTP-server/). The app should return the plain text of "Hello World" for each response, and should run on port `8080`. You should be able to start your server using the command `npm start`.
+2. Create an `index.js` file in this folder. Use the `http` library to create a [hello world node application](https://nodejs.org/en/knowledge/HTTP/servers/how-to-create-a-HTTP-server/). The app should return the plain text of "Hello World" for each response, have an HTTP response code of 200, and should run on port `8080`. You should be able to start your server using the command `npm start`.
 
 3. Add a couple more modules to the top of your `index.js` file to make the next steps easier.
 
