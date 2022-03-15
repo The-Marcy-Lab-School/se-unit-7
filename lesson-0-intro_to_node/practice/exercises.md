@@ -57,25 +57,3 @@ Go into `labs.js` and add a random console.log statement that you'd like to see 
 Run `node.marcy.js` from the command line.
 
 **How many times what your statement logged to the console and why? Reference the [node.js docs](https://nodejs.org/docs/latest/api/modules.html#modules_caching) to learn more about caching**
-
-### Exercise 5:
-
-Follow these steps to create a simple server on your own machine.
-Create a new file named `server.js`
-
-Define a variable called `http` and set it to the required the `http` module.
-
-Define a variable called `hostName` and set it to `127.0.0.1`, which is the IP address for localhost.
-
-Define a `port` variable and set it to 8000.
-
-Use the [http.createServer section](https://nodejs.org/api/http.html#http_http_createserver_options_requestlistener) of the node.js docs to set up a server.
-
-Within your server.listen() method, log this statement to the terminal:
-`Server running at http://${hostName}:${port}/`.
-
-In your terminal, run `node server.js` from the command line.
-
-Click the link and allow it to direct you to your browser.
-
-**What is the client and what is the server in this exercise?**
