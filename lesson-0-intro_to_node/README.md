@@ -28,7 +28,6 @@
 
 4. Gain more insight into [the node.js module object](https://nodejs.org/api/modules.html#modules_the_module_object) and [the module scope](https://nodejs.org/api/modules.html#modules_the_module_scope) by referring to the official node.js docs.
 
-5. Learn the basics about a [localhost](https://whatismyipaddress.com/localhost).
 
 ### Optional Learning Assingments:
 * **Codecademy Lessons:** [Learn Node.js](https://www.codecademy.com/learn/learn-node-js)
