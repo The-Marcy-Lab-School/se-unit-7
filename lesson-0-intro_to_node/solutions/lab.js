@@ -7,5 +7,5 @@ const getFavoriteNumber = () => {
 	return favoriteNumber;
 };
 
-module.exports.getFavoriteNumber = getFavoriteNumber();
+module.exports.getFavoriteNumber = getFavoriteNumber;
 console.log(`Here are my module.exports:`, module.exports);
