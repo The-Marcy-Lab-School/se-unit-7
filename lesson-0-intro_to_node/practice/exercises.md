@@ -33,7 +33,7 @@ Again, run the file `marcy.js` from your command line by executing the command `
 
 Within the `lab.js` file, define a function called `getFavoriteNumber`, which must return your favorite integer.
 
-Add a new key `favoriteNumber` to the `module.exports` object and use the invocation of your function as the value like so: `module.exports.favoriteNumber = getFavoriteNumber()`.
+Add a new key `favoriteNumber` to the `module.exports` object and use the invocation of your function as the value like so: `module.exports.getFavoriteNumber = getFavoriteNumber`.
 
 Again, run the file `marcy.js` from your command line by executing the command `node marcy.js`.
 
