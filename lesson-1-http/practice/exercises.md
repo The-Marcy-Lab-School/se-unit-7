@@ -18,9 +18,9 @@ const url = require('url');
 
 5. Change the server function you wrote so that we also return the appropriate status code. The status codes of the application so that the `/` and `dogs` routes both return a 200 status, while the default option becomes a 404 response.
 
-6. Create a function called `renderText` that takes in a string of text and an optional status code integer (if no status code is given, it should default to 200). This function should write the status code to the header and the response text to the response, then end the response. Refactor your server to take advantage of this new function.
+6. Create a nested function called `renderReponse` that takes in a string of text and an optional status code integer (if no status code is given, it should default to 200). This function should write the status code to the header and the response text to the response, then end the response. Refactor your server to take advantage of this new function.
 
-7. Add any query params as an object for the `renderTemplate` method so we can display some non-static content to the user. For example, `/?name=Doug` should then display `Hello Doug!` in our HTML.
+7. Add any query params as an object for the `renderReponse` method so we can display some non-static content to the user. For example, `/?name=Doug` should then response with the text `Hello Doug!`.
 
 
 ## Short Response
