@@ -16,6 +16,7 @@
 ## Learning Assignments
 * Learn the basics about a [localhost](https://whatismyipaddress.com/localhost).
 * [Tutorial - How to Create a Hello World HTTP Server](https://nodejs.org/en/knowledge/HTTP/servers/how-to-create-a-HTTP-server/)
+* [Tutorial - Running a Server Without a Framework](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Node_server_without_framework)
 * [Tutorial - Accessing Query String Parameters](https://nodejs.org/en/knowledge/HTTP/clients/how-to-access-query-string-parameters/)
 * [MDN - HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 * [Tutorial - Create a Web App With Node](https://ilovecoding.org/courses/nodejs/lessons/creating-a-simple-web-app-with-nodejs)
@@ -23,7 +24,6 @@
 
 ## Resources
 * [HTTP Library Documentation](https://nodejs.org/api/http.html)
-* [Tutorial - Running a Server Without a Framework](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Node_server_without_framework)
 * [HTTP Status Rappers](http://httpstatusrappers.com/)
 * [Fun 404 Page Examples](https://optinmonster.com/best-404-page-examples/)
 
