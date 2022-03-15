@@ -1,12 +1,6 @@
 # Lesson 1 Practice Exercises
 
-0. Describe the purpose of HTTP Status Codes. Why are these important?
-
-1. What is the difference between a URL and a URI?
-
-2. What is the purpose of query params? How do we use them in our applications?
-
-## Code
+## Code Along
 
 3. On your computer, create a folder called `node-http-application`. Initialize a node project by `cd` into the newly created folder run `npm init`. Create an `index.js` file in this folder. Use the `http` library to create a [hello world node application](https://nodejs.org/en/knowledge/HTTP/servers/how-to-create-a-HTTP-server/). The app should return the plain text of "Hello World" for each response, and should run on port `8080`. You should be able to start your server using the command `npm start`.
 
@@ -25,3 +19,14 @@ const url = require('url');
 7. Create a function called `renderText` that takes in a string of text and an optional status code integer (if no status code is given, it should default to 200). This function should write the status code to the header and the response text to the response, then end the response. Refactor your server to take advantage of this new function.
 
 8. Add any query params as an object for the `renderTemplate` method so we can display some non-static content to the user. For example, `/?name=Doug` should then display `Hello Doug!` in our HTML.
+
+
+## Short Response
+
+1. Describe the purpose of HTTP Status Codes. Why are these important?
+
+2. What is the difference between a URL and a URI?
+
+3. What is the purpose of query params? How do we use them in our applications?
+
+4. What is the client and what is the server in this exercise?
