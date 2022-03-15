@@ -33,22 +33,30 @@ Again, run the file `marcy.js` from your command line by executing the command `
 
 Within the `lab.js` file, define a function called `getFavoriteNumber`, which must return your favorite integer.
 
-Add a new key to the module.exports object and use the invocation of your function as the value.
+Add a new key `favoriteNumber` to the `module.exports` object and use the invocation of your function as the value like so: `module.exports.favoriteNumber = getFavoriteNumber()`.
 
-**Why isn't this part of the module.exports object undefined?**
+Again, run the file `marcy.js` from your command line by executing the command `node marcy.js`.
+
+**Describe what you notice and give details for why the output looks the way it does.**
 
 ### Exercise 4:
 
 Comment out your current code within `marcy.js`.
 Beneath your commented out code, require the `lab.js` file multiple times.
 
+```js
+require('./lab.js'); 
+require('./lab.js'); 
+require('./lab.js'); 
+```
+
 Go into `labs.js` and add a random console.log statement that you'd like to see appear in your terminal.
 
-**Before running he marcy.js file, make a prediction about what you might see as the output**
+**Before running the marcy.js file, make a prediction about what you might see as the output**
 
 Run `node.marcy.js` from the command line.
 
-**What actually happens and why? Reference the [node.js docs](https://nodejs.org/docs/latest/api/modules.html#modules_caching) to learn more about caching**
+**How many times what your statement logged to the console and why? Reference the [node.js docs](https://nodejs.org/docs/latest/api/modules.html#modules_caching) to learn more about caching**
 
 ### Exercise 5:
 
