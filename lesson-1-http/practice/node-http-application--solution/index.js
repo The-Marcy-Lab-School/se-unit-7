@@ -1,42 +1,32 @@
-const http = require('http')
-const fs   = require('fs')
+const http = require('http');
 const url = require('url');
 
-
-const server = (request, response) => {
-
-  const renderText = (text, statusCode=200) => {
-    response.writeHead(statusCode, { 'Content-Type': 'text/html' });
-    response.write(text)
-    response.end()
+const requestListener = function (req, res) {
+  const renderResponse = function(text, statusCode = 200){
+    res.writeHead(statusCode);
+    res.end(text);
   }
 
-  const renderTemplate = (filePath, statusCode=200, params={}) => {
-    fs.readFile(`./templates/${filePath}`, 'utf8', (error, content) => {
-      response.writeHead(statusCode, { 'Content-Type': 'text/html' });
-      Object.keys(params).forEach(key => {
-        content = content.replace(`{{${key}}}`, params[key])
-      })
-      response.write(content)
-      response.end()
-    })
-  }
+  const pathName = url.parse(req.url).pathname
+  const queryObject = url.parse(req.url, true).query;
+  console.log(pathName)
+  console.log(queryObject)
 
-  const urlInfo = url.parse(request.url, true);
-
-
-  switch (urlInfo.pathname) {
-    case '/':
-      renderTemplate('index.html', 200, urlInfo.query)
-      break;
-    case '/dogs':
-      renderTemplate('dogs.html')
-      break;
-    default:
-      renderText('Sorry, that route does not exist', 404)
+  if(pathName === "/"){
+    if(queryObject.name){
+      renderResponse(`Hello, ${queryObject.name}!`);
+    } else {
+      renderResponse('Hello, World!');
+    }
+  }else if(pathName === "/dogs"){
+    renderResponse('Hello, Dogs!');
+  }else{
+    renderResponse("Sorry, that route does not exist.", 404);
   }
 }
 
-const app = http.createServer(server)
+const port = 8080
 
-app.listen(8000)
+const server = http.createServer(requestListener);
+server.listen(port);
+console.log(`Server is listening on port ${port}`)
