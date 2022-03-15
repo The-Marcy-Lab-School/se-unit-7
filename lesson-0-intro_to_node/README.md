@@ -28,7 +28,7 @@
 
 4. **W3School**: [Node.js Modules](https://www.w3schools.com/nodejs/nodejs_modules.asp)
 
-5. **Blog:** [Everything you should know about ‘module’ & ‘require’ in Node.js](https://www.freecodecamp.org/news/require-module-in-node-js-everything-about-module-require-ccccd3ad383/)
+5. **Blog:** [Everything you should know about ‘module’ & ‘require’ in Node.js](https://morioh.com/p/ce27de38a2f1)
 
 ----
 
