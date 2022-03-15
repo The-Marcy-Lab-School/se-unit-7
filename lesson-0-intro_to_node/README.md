@@ -30,7 +30,7 @@
 
 5. **Blog:** [Everything you should know about ‘module’ & ‘require’ in Node.js](https://www.freecodecamp.org/news/require-module-in-node-js-everything-about-module-require-ccccd3ad383/)
 
-
+----
 
 ### Optional Learning Assingments:
 * **Codecademy Lessons:** [Learn Node.js](https://www.codecademy.com/learn/learn-node-js)
