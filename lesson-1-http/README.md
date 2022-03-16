@@ -1,4 +1,4 @@
-# HTTP Utilities
+# HTTP Server
 
 ## Key Terms
 * Localhost
