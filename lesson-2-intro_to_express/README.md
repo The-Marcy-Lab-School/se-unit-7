@@ -15,9 +15,10 @@
 ## Learning Assignments
 + Codecademcy Course: [Express](https://www.codecademy.com/learn/learn-express)
   * Learn Express: Routes
-+ [Express Documentation - Getting Started](https://expressjs.com/en/starter/installing.html)
-+ [Video Tutorial: Building RESTful APIs with Express](https://www.youtube.com/watch?v=pKd0Rpw7O48) - We'll look at REST in a future lesson, so for now focus mostly on how to use Express
 + [Free Code Camp Guide](https://guide.freecodecamp.org/nodejs/express/)
++ [Express Documentation - Getting Started](https://expressjs.com/en/starter/installing.html)
++ [REST API Design](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/)
++ [Video Tutorial: Building RESTful APIs with Express](https://www.youtube.com/watch?v=pKd0Rpw7O48) - We'll look at REST in a future lesson, so for now focus mostly on how to use Express
 + [Middleware Definition](https://developer.mozilla.org/en-US/docs/Glossary/Middleware)
 
 ## Practice Set
