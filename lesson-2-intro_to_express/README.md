@@ -2,10 +2,12 @@
 
 ## Key Terms
 + Express
++ Framework
 + Middleware
 + Routing
++ REST
 + JSON
-+ Framework
++ [`express.json()`](https://expressjs.com/en/api.html#express.json)
 
 ## Essential Questions
 
