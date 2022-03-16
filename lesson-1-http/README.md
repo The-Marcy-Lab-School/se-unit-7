@@ -28,4 +28,4 @@
 * [Fun 404 Page Examples](https://optinmonster.com/best-404-page-examples/)
 
 ## Practice Set
-+ [Practice](./practice/exercises.md)
++ [Practice](./practice/README.md)
