@@ -4,7 +4,7 @@
 + Routing
 + REST
 + JSON
-+ [`express.json()`](https://expressjs.com/en/api.html#express.json)
++ [`app.use(express.json())`](https://expressjs.com/en/api.html#express.json)
 + [`app.use(cors())`](https://expressjs.com/en/resources/middleware/cors.html)
 
 ## Essential Questions
