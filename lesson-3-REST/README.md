@@ -16,3 +16,7 @@
 + [REST Resource Naming Best Practices](https://medium.com/linkit-intecs/rest-resource-naming-best-practices-cbee65f37a62)
 + [REST API Design in Express](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/)
 + [Video Tutorial: Building RESTful APIs with Express](https://www.youtube.com/watch?v=pKd0Rpw7O48) 
+
+## Example of RESTful routes
+
+![REST](https://miro.medium.com/max/1400/1*E4WwbdA-NSJJimYZA9r6Cg.png)
