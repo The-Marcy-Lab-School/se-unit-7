@@ -5,9 +5,7 @@
 + Framework
 + Middleware
 + Routing
-+ REST
 + JSON
-+ [`express.json()`](https://expressjs.com/en/api.html#express.json)
 
 ## Essential Questions
 
