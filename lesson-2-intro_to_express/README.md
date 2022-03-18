@@ -17,9 +17,8 @@
 + [Express Hello World](https://www.tutorialspoint.com/expressjs/expressjs_hello_world.htm)
 + [Express Routing](https://expressjs.com/en/guide/routing.html)
 + [Free Code Camp Guide](https://guide.freecodecamp.org/nodejs/express/)
-+ [REST API Design](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/)
-+ [Video Tutorial: Building RESTful APIs with Express](https://www.youtube.com/watch?v=pKd0Rpw7O48) 
 + [Middleware Definition](https://developer.mozilla.org/en-US/docs/Glossary/Middleware)
++ [Express Middleware through Examples](https://developer.okta.com/blog/2018/09/13/build-and-understand-express-middleware-through-examples)
 
 ## Practice Set
 + [Practice](./practice)
