@@ -3,9 +3,9 @@
 ## Key Terms
 + Express
 + Framework
-+ Middleware
 + Routing
 + JSON
++ Middleware
 
 ## Essential Questions
 
