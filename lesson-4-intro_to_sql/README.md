@@ -22,12 +22,11 @@
      * Your First Database: Schema
 
 **Review and Bookmark the Following Resources**
-- [Postgres Documentation](https://www.postgresql.org/docs/12/index.html) - Bookmark the documentation to Postgres. Read over [Chapter 2 - The SQL Langage](https://www.postgresql.org/docs/12/tutorial-sql.html) to gain an deeper overview of using SQL within Postgres.
 - [SQL Basics Cheat Sheet](https://www.sqltutorial.org/sql-cheat-sheet/)
 
 
 ## Optional Learning
-
+* Read over [Chapter 2 - The SQL Langage](https://www.postgresql.org/docs/12/tutorial-sql.html) to gain an deeper overview of using SQL within Postgres.
 * Codecademy - [Learn SQL](https://www.codecademy.com/learn/learn-sql)
     * Manipulation
     * Queries
