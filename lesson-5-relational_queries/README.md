@@ -17,7 +17,7 @@
 - What is data modeling?
 
 ## Learning Assignments
-1. [Khanacademy Relational Queries in SQL](https://www.khanacademy.org/computing/computer-programming/sql/relational-queries-in-sql/a/splitting-data-into-related-tables)
+1. [Khanacademy - Relational Queries in SQL Course](https://www.khanacademy.org/computing/computer-programming/sql/relational-queries-in-sql/a/splitting-data-into-related-tables)
 2. Launch School Open Book Shelf - [Intro to SQL](https://launchschool.com/books/sql/read/table_relationships). Read the following sections:
      * Working with Multiple Tables
 
