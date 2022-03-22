@@ -22,7 +22,7 @@
      * Your First Database: Schema
 
 **Review and Bookmark the Following Resources**
-- [Postgres Documentation](https://www.postgresql.org/docs/12/index.html) - Bookmark the documentation to Postgres. Read over[Chapter 2 - The SQL Langage](https://www.postgresql.org/docs/12/tutorial-sql.html) to gain an deeper overview of using SQL within Postgres.
+- [Postgres Documentation](https://www.postgresql.org/docs/12/index.html) - Bookmark the documentation to Postgres. Read over [Chapter 2 - The SQL Langage](https://www.postgresql.org/docs/12/tutorial-sql.html) to gain an deeper overview of using SQL within Postgres.
 - [SQL Basics Cheat Sheet](https://github.com/treehouse/cheatsheets/blob/master/sql_basics/cheatsheet.md)
 
 
