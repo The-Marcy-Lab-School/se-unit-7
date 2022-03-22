@@ -22,10 +22,9 @@
      * Working with Multiple Tables
 
 ### Optional Learning Assignment
-- Codecademy - [Learn SQL](https://www.codecademy.com/learn/learn-sql)
+3. Codecademy - [Learn SQL](https://www.codecademy.com/learn/learn-sql)
     * Multiple Tables
-  
-- Read over [Postgres Documentation - Chapter 2, Section 6: Joins Between Tables](https://www.postgresql.org/docs/8.3/tutorial-join.html) deepen your understanding of joins/relational queries.
+4. Read over [Postgres Documentation - Chapter 2, Section 6: Joins Between Tables](https://www.postgresql.org/docs/8.3/tutorial-join.html) deepen your understanding of joins/relational queries.
 
 
 ### Practice
