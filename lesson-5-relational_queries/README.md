@@ -28,6 +28,6 @@
 - Read over [Postgres Documentation - Chapter 2, Section 6: Joins Between Tables](https://www.postgresql.org/docs/8.3/tutorial-join.html) deepen your understanding of joins/relational queries.
 
 
-**Practice**
+### Practice
 
  [Practice](./practice/) 
