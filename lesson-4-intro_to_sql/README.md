@@ -20,6 +20,7 @@
 2. Launch School Open Book Shelf - [Intro to SQL](https://launchschool.com/books/sql). Read the following sections:
      * Getting Started Section
      * Your First Database: Schema
+     * Your First Database: Data
 
 **Review and Bookmark the Following Resources**
 - [SQL Basics Cheat Sheet](https://www.sqltutorial.org/sql-cheat-sheet/)
