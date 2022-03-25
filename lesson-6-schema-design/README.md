@@ -16,7 +16,7 @@
 - **Artilce:** [ONE-TO-MANY Database Relationships](https://blog.supportgroup.com/getting-started-with-relational-databases-one-to-many-relationship)
 - **Article:** [ONE-TO-ONE & MANY-TO-MANY Database Relationships](https://blog.supportgroup.com/getting-started-with-relational-databases-one-to-one-and-many-to-many-relationships)
 - **Article:** [How To Implement One to One, One to Many and Many to Many Relationships When Designing A Database](https://medium.com/@emekadc/how-to-implement-one-to-one-one-to-many-and-many-to-many-relationships-when-designing-a-database-9da2de684710) 
-- **Article:** [How to Handle Many-to-Many Relationships](https://dzone.com/articles/how-to-handle-a-many-to-many-relationship-in-datab)
+- **Article:** [What is Entity Relationship Diagram](https://www.visual-paradigm.com/guide/data-modeling/what-is-entity-relationship-diagram/)
 - **Article:** [SQL Injection](https://www.w3schools.com/sql/sql_injection.asp)
 
 ### Practice:
