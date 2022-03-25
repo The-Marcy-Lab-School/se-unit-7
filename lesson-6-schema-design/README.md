@@ -12,7 +12,7 @@
 + What's the difference between a one-to-one, one-to-many and many-to-many relationship? How do we model those using SQL?
 
 ### Learning Assignments:
-- Take 5 minutes to read this Medium post that overviews [Schema Design](https://medium.com/@kimtnguyen/relational-database-schema-design-overview-70e447ff66f9).
+- **Article:** [Schema Design](https://medium.com/@kimtnguyen/relational-database-schema-design-overview-70e447ff66f9).
 - **Article:** [ONE-TO-ONE AND MANY-TO-MANY DATABASE RELATIONSHIPS](https://blog.supportgroup.com/getting-started-with-relational-databases-one-to-one-and-many-to-many-relationships)
 - **Article:** [How To Implement One to One, One to Many and Many to Many Relationships When Designing A Database](https://medium.com/@emekadc/how-to-implement-one-to-one-one-to-many-and-many-to-many-relationships-when-designing-a-database-9da2de684710) 
 - **Article:** [How to Handle Many-to-Many Relationships](https://dzone.com/articles/how-to-handle-a-many-to-many-relationship-in-datab)
