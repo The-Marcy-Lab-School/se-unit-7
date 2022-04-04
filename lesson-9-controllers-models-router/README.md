@@ -10,6 +10,7 @@
 ## Essential Questions
 * What is the MVC Pattern?
 * How can we write modular Express code?
+* What are best practices when organizing our server-side code?
 
 ## Learning Assignments
 * **Documentation:** [MDN's explanation of MVC](https://developer.mozilla.org/en-US/docs/Glossary/MVC)
